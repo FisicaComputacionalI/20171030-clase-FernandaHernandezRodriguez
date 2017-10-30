@@ -1,0 +1,25 @@
+# 20171030-clase-FernandaHernandezRodriguez
+20171030-clase-FernandaHernandezRodriguez created by GitHub Classroom
+
+//Programa para saber la edad promedio a la que se graduan los estudiantes de la licenciatura en Fisica
+//Autor:Maria Fernanda Hernandez Rodriguez
+//Creado:30 de octubre de 2017
+#include <iostream>
+using namespace std;
+int main() {
+        int edad[14];
+        int suma=0;
+
+        for (int i=0; i<14; i++)
+{
+        cout<<("¿a que edad terminaste la carrera?")<<endl;
+        cin >>edad[i];
+        suma+=edad[i];
+}
+
+for (int j=0; j<14;j++)
+        cout<<edad[j]<<",";
+cout<<"la edad promedio de graduaciòn esperado es"<<suma/14<<endl;
+
+return 0;
+            }
